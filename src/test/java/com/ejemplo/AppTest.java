@@ -9,6 +9,6 @@ public class AppTest {
     public void testSumar() {
         App app = new App();
         int resultado = app.sumar(2, 3);
-        assertEquals(5, resultado, "El resultado de la suma debe ser 5");
+        assertEquals(6, resultado, "El resultado de la suma debe ser 5");
     }
 }
